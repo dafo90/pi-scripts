@@ -2,8 +2,6 @@
 
 set -e
 
-cd "$(dirname "$0")/.."
-
 echo "Installing shutdown button...\n"
 sudo cp shutdown-button/shutdown-button.py /usr/local/bin/
 sudo chmod +x /usr/local/bin/shutdown-button.py
