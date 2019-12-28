@@ -26,7 +26,7 @@ def init():
 # main
 if __name__ == "__main__":
     #initialize GPIO settings
-	init()
+    init()
 
     cpu = CPUTemperature()
     oldtemp = cpu.temperature
