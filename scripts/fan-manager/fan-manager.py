@@ -18,15 +18,15 @@ def init():
 
     #initialize fan (OUT)
     GPIO.setup(fanPin, GPIO.OUT)
-    fan = GPIO.PWM(fanPin, 100)
-    fan.start(0)
     GPIO.setwarnings(False)
-
 
 # main
 if __name__ == "__main__":
     #initialize GPIO settings
     init()
+
+    fan = GPIO.PWM(fanPin, 100)
+    fan.start(0)
 
     cpu = CPUTemperature()
     oldtemp = cpu.temperature
