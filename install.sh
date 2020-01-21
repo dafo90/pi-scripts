@@ -16,7 +16,7 @@ sudo chmod +x /etc/init.d/shutdown-button.sh
 sudo update-rc.d shutdown-button.sh defaults
 sudo /etc/init.d/shutdown-button.sh start
 
-echo "Starting shutdown button...\n"
+echo "Starting fan manager...\n"
 sudo cp scripts/fan-manager/fan-manager.sh /etc/init.d/
 sudo chmod +x /etc/init.d/fan-manager.sh
 sudo update-rc.d fan-manager.sh defaults
