@@ -14,11 +14,7 @@ Raspberry Pi Scripts to manage a fan and use a power on/off button.
 
 1. Install GPIO Zero Python library and Git:  
    `sudo apt install python-gpiozero git`
-2. Clone this repo to your Raspberry Pi:  
-   `git clone https://github.com/dafo90/pi-scripts.git`
-3. Go to project directory:  
-   `cd pi-scripts`
-4. Install scripts:  
-   `./install.sh`
+2. Install scripts:  
+   `curl -Os https://raw.githubusercontent.com/dafo90/pi-scripts/master/install.sh && bash install.sh`
 
 Done!
